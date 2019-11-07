@@ -6,8 +6,36 @@
 
 
 let calc = function (calcString: string) {
-
+    for (let i = 1; i <= 8; i++) {
+        for (let j = 1; j <= 2; j++) {
+            console.log(i + 'x' + j + '=' + i * j);
+        }
+    }
 }
+
+/*let calc = function (calcString: number) {
+    for (let i = 1; i <= 1; i++) {
+        for (let j = 1; j <= 1; j++) {
+            console.log(i + '+' + j + '=' + i ++ j);
+        }
+    }
+}*/
+
+/*let calc = function (calcString: string) {
+    for (let i = 1; i <= 5; i++) {
+        for (let j = 1; j <= 5; j++) {
+            console.log(i + '/' + j + '=' + i / j);
+        }
+    }
+}*/
+
+/*let calc = function (calcString: string) {
+    for (let i = 1; i <= 9; i++) {
+        for (let j = 1; j <= 1; j++) {
+            console.log(i + '/' + j + '=' + i / j);
+        }
+    }
+}*/
 
 calc('8*2')
 calc('1+1')
